@@ -12,19 +12,14 @@ public class App
         //How i t could look like using the method for the assignment.
         //Have not implemented them of a purpose.
 
-        //String names [] = new String[5];
+
         String name = "Simon Elbrin";
         boolean wasAdded = add(name);
-
         update("Simon Elbrin", "Simon Elbrink");
-
         System.out.println("wasAdded = " + wasAdded);
-
         String name1 = "Adrian Nilsso";
         wasAdded = add(name1);
-
         update("Adrian Nilsso", "Adrian Nilsson");
-
         System.out.println("wasAdded = " + wasAdded);
 
 
@@ -57,21 +52,13 @@ public class App
         newArray[nl-1] = fullName;
         for (int i = 0;i < names.length; i++)
         {
-            //System.out.println("i: " + i);
-            //System.out.println("names: " + names[i]);
+
             newArray[i] = names[i];
 
         }
         newArray[nl-1] = fullName;
         names = newArray;
-        //System.out.println(nl);
-        //System.out.println(newArray[nl-1]);
 
-        /*for (int i = 0;i < names.length; i++)
-        {
-            names[i]=fullName;
-            newArray
-        }*/
 
         return true;
     }
